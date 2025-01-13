@@ -1,7 +1,9 @@
-body {margin:auto; background-color: rgb(9, 243, 204);}
+body {margin: auto;
+background-color: rgb(58, 211, 231);}
 a:hover {color: blue; text-decoration: none;}
 
-h1 {color: yellow;
+h1 {color: yellow; margin: auto;
+    text-align: center;
     background-color: black;
     font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;}
     
@@ -11,13 +13,32 @@ li {font-size: x-large; font-weight: bold;}
 
 ul li {color: blue;}
 
+span {background-color: yellow;
+    color: white;
+text-shadow: 1px 1px 4px black}
+
+
+
+img{margin: auto;
+    display: block;
+text-align: center;
+padding: 10px}
+
 ol {color: red;}
 
-p {font-size: larger; font-weight: bold; font-family: Arial, Helvetica, sans-serif;}
+p {font-size: larger; 
+    background-color: red;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold; 
+    font-family: Arial, Helvetica, sans-serif;}
 
 #ramen-list li {color: green;}
+
 #ramen-ol li {color: blueviolet;}
+
 #Admiralh1 {color: yellow;
+            text-align: center;
             font-weight: bold;
             text-shadow:0px 0px 3px black,
             0px 0px 3px black;
